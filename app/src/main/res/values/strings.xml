@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Cook It</string>
+    <string name="title_activity_main">Main</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_empresas">EmpresasActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="msj_error_clienrest">Error al conusltar servicio web, posibles problemas de conexión, intente más adelante.</string>
+    <string name="msj_error_clienrest_formato">Error en interpretación de resultado, posibles problemas con el servidor.</string>
+    <string name="msj_confirmacion">Mensaje de confirmación</string>
+    <string name="msj_pregunta_salir">¿Esta seguro que desea salir de la aplicación?</string>
+    <string name="lbl_aceptar">Aceptar</string>
+
+    <string name="title_activity_inicio">Sign in</string>
+    <string name="title_activity_buscador">BuscadorActivity</string>
+</resources>

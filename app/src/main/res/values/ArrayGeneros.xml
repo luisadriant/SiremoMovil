@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="generos">
+        <item>Genero</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+    <string-array name="Color">
+        <item>Color</item>
+        <item>Claro</item>
+        <item>Obscuro</item>
+        <item>Luminoso</item>
+    </string-array>
+    <string-array name="Estilo">
+        <item>Estilo</item>
+        <item>Rocker</item>
+        <item>Casual</item>
+        <item>Deportivo</item>
+        <item>Elegante</item>
+    </string-array>
+    <string-array name="GeneroV">
+        <item>Genero</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Unisex</item>
+    </string-array>
+    <string-array name="Tipo">
+        <item>Tipo</item>
+        <item>Torso</item>
+        <item>Piernas</item>
+        <item>Pies</item>
+    </string-array>
+    <string-array name="Talla">
+        <item>Talla</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+    </string-array>
+
+</resources>

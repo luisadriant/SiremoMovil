@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.luisl.siremo1.VestimentasActivity">
+
+    <item
+        android:id="@+id/misempresasv"
+        android:orderInCategory="100"
+        android:title="Mis Empresas"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/salirv"
+        android:orderInCategory="100"
+        android:title="Salir"
+        app:showAsAction="never" />
+</menu>

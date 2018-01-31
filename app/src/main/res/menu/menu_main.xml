@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.luisl.siremo1.MainActivity">
+    <item
+        android:id="@+id/action_empresas"
+        android:orderInCategory="100"
+        android:title="Mis empresas"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="100"
+        android:title="Editar mis Datos"
+        app:showAsAction="never" />
+</menu>

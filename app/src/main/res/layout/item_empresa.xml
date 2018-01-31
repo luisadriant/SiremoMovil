@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="170dp"
+            android:layout_height="58dp"
+            android:layout_weight="0.00"
+            android:background="@android:color/background_light"
+            app:srcCompat="@mipmap/empresa" />
+
+        <TextView
+            android:id="@+id/inomEmpresa"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:text="EMPRESA"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/iempRuc"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:text="ruc"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/iempEdit"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Editar"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/iempEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_weight="0.00"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Eliminar"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/iempAdministrar"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Administrar"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+
+</LinearLayout>

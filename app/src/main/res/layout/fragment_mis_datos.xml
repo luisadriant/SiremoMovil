@@ -1,0 +1,101 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uiresource.cookit.MisEmpresasFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DATOS DEL USUARIO"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/DUusrNombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombres"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/DUusrApellidos"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Apellidos Admin"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/DUusrNombreUsr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre Usuario"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/DUusrTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Telefono"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/DUusrFechaNac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Fecha Nacimiento"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/DUusrEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <Spinner
+            android:id="@+id/DUusrGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog" />
+
+        <EditText
+            android:id="@+id/DUusrPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/DUusrRpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Repetir Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/DUbtn_reg_usr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="GUARDAR"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+</FrameLayout>
